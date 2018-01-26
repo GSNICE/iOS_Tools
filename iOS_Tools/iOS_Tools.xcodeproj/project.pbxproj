@@ -16,6 +16,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86267028201B1D1400A5289F /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		86267029201B1D4500A5289F /* ColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
+		8626702A201B1E3000A5289F /* CategoryMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryMacro.h; sourceTree = "<group>"; };
+		8626702B201B1F1000A5289F /* PathMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathMacro.h; sourceTree = "<group>"; };
+		8626702C201B1FDB00A5289F /* DeviceMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceMacro.h; sourceTree = "<group>"; };
+		8626702D201B220D00A5289F /* ViewMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewMacro.h; sourceTree = "<group>"; };
 		86496004201889B10090AA1C /* iOS_Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86496007201889B10090AA1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86496008201889B10090AA1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,6 +98,12 @@
 		8649601F20188AF40090AA1C /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				86267028201B1D1400A5289F /* Macro.h */,
+				8626702D201B220D00A5289F /* ViewMacro.h */,
+				8626702B201B1F1000A5289F /* PathMacro.h */,
+				86267029201B1D4500A5289F /* ColorMacro.h */,
+				8626702A201B1E3000A5289F /* CategoryMacro.h */,
+				8626702C201B1FDB00A5289F /* DeviceMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
