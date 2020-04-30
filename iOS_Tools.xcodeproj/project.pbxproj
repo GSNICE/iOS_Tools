@@ -13,16 +13,33 @@
 		86496011201889B10090AA1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86496010201889B10090AA1C /* Assets.xcassets */; };
 		86496014201889B10090AA1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86496012201889B10090AA1C /* LaunchScreen.storyboard */; };
 		86496017201889B10090AA1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86496016201889B10090AA1C /* main.m */; };
-		86B300F32439FAF300082E37 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B300F22439FAF300082E37 /* Utility.m */; };
+		86D7714B24598348007763BE /* NSArray+Enum.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7712A24598348007763BE /* NSArray+Enum.m */; };
+		86D7714C24598348007763BE /* NSObject+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7712E24598348007763BE /* NSObject+Toast.m */; };
+		86D7714D24598348007763BE /* UIButton+FixMultipleClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7713224598348007763BE /* UIButton+FixMultipleClick.m */; };
+		86D7714E24598348007763BE /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7713524598348007763BE /* UIButton+ImageTitleSpacing.m */; };
+		86D7714F24598348007763BE /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7713924598348007763BE /* UIImage+FlatUI.m */; };
+		86D7715024598348007763BE /* UITextView+DisableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7713C24598348007763BE /* UITextView+DisableCopy.m */; };
+		86D7715124598348007763BE /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7714024598348007763BE /* UIView+Extension.m */; };
+		86D7715224598348007763BE /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7714324598348007763BE /* UIView+Toast.m */; };
+		86D7715324598348007763BE /* UIView+ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7714624598348007763BE /* UIView+ToastView.m */; };
+		86D7715424598348007763BE /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7714A24598348007763BE /* UIViewController+Alert.m */; };
+		86D7715A245984B0007763BE /* GSLandAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D77159245984B0007763BE /* GSLandAlertController.m */; };
+		86D7715E2459888A007763BE /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7715D2459888A007763BE /* Utility.m */; };
+		86D77161245988C8007763BE /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D77160245988C8007763BE /* UIUtils.m */; };
+		86D771652459B954007763BE /* GSVoiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D771642459B954007763BE /* GSVoiceCenter.m */; };
+		86D771692459BA4B007763BE /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D771682459BA4B007763BE /* UIViewExt.m */; };
+		AF7DA52ED47F3406210196F4 /* Pods_iOS_Tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816617CE1EC7A6D4B2E2723B /* Pods_iOS_Tools.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15F80AB3D0DC2FF6AD730994 /* Pods-iOS_Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Tools.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Tools/Pods-iOS_Tools.debug.xcconfig"; sourceTree = "<group>"; };
+		816617CE1EC7A6D4B2E2723B /* Pods_iOS_Tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86267028201B1D1400A5289F /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		86267029201B1D4500A5289F /* ColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
 		8626702A201B1E3000A5289F /* CategoryMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryMacro.h; sourceTree = "<group>"; };
 		8626702B201B1F1000A5289F /* PathMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathMacro.h; sourceTree = "<group>"; };
 		8626702C201B1FDB00A5289F /* DeviceMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceMacro.h; sourceTree = "<group>"; };
-		8626702D201B220D00A5289F /* ViewMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewMacro.h; sourceTree = "<group>"; };
+		8626702D201B220D00A5289F /* LayoutMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutMacro.h; sourceTree = "<group>"; };
 		86496004201889B10090AA1C /* iOS_Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86496007201889B10090AA1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86496008201889B10090AA1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,8 +50,37 @@
 		86496013201889B10090AA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86496015201889B10090AA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86496016201889B10090AA1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		86B300F12439FAF300082E37 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
-		86B300F22439FAF300082E37 /* Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		86D7712924598348007763BE /* NSArray+Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Enum.h"; sourceTree = "<group>"; };
+		86D7712A24598348007763BE /* NSArray+Enum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Enum.m"; sourceTree = "<group>"; };
+		86D7712D24598348007763BE /* NSObject+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Toast.h"; sourceTree = "<group>"; };
+		86D7712E24598348007763BE /* NSObject+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Toast.m"; sourceTree = "<group>"; };
+		86D7713124598348007763BE /* UIButton+FixMultipleClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FixMultipleClick.h"; sourceTree = "<group>"; };
+		86D7713224598348007763BE /* UIButton+FixMultipleClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FixMultipleClick.m"; sourceTree = "<group>"; };
+		86D7713424598348007763BE /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		86D7713524598348007763BE /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		86D7713824598348007763BE /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlatUI.h"; sourceTree = "<group>"; };
+		86D7713924598348007763BE /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlatUI.m"; sourceTree = "<group>"; };
+		86D7713B24598348007763BE /* UITextView+DisableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+DisableCopy.h"; sourceTree = "<group>"; };
+		86D7713C24598348007763BE /* UITextView+DisableCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+DisableCopy.m"; sourceTree = "<group>"; };
+		86D7713F24598348007763BE /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		86D7714024598348007763BE /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		86D7714224598348007763BE /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		86D7714324598348007763BE /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		86D7714524598348007763BE /* UIView+ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ToastView.h"; sourceTree = "<group>"; };
+		86D7714624598348007763BE /* UIView+ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ToastView.m"; sourceTree = "<group>"; };
+		86D7714924598348007763BE /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		86D7714A24598348007763BE /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
+		86D77158245984B0007763BE /* GSLandAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLandAlertController.h; sourceTree = "<group>"; };
+		86D77159245984B0007763BE /* GSLandAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLandAlertController.m; sourceTree = "<group>"; };
+		86D7715C2459888A007763BE /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		86D7715D2459888A007763BE /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		86D7715F245988C8007763BE /* UIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtils.h; sourceTree = "<group>"; };
+		86D77160245988C8007763BE /* UIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtils.m; sourceTree = "<group>"; };
+		86D771632459B954007763BE /* GSVoiceCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSVoiceCenter.h; sourceTree = "<group>"; };
+		86D771642459B954007763BE /* GSVoiceCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSVoiceCenter.m; sourceTree = "<group>"; };
+		86D771672459BA4B007763BE /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		86D771682459BA4B007763BE /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		F97639B7F511F19A0C1BE7A3 /* Pods-iOS_Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Tools.release.xcconfig"; path = "Target Support Files/Pods-iOS_Tools/Pods-iOS_Tools.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,17 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF7DA52ED47F3406210196F4 /* Pods_iOS_Tools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		155DD07EA6A5AB5759BA02CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				816617CE1EC7A6D4B2E2723B /* Pods_iOS_Tools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C72261AD9E89E5C8FD9DC24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15F80AB3D0DC2FF6AD730994 /* Pods-iOS_Tools.debug.xcconfig */,
+				F97639B7F511F19A0C1BE7A3 /* Pods-iOS_Tools.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		86495FFB201889B10090AA1C = {
 			isa = PBXGroup;
 			children = (
 				86496006201889B10090AA1C /* iOS_Tools */,
 				86496005201889B10090AA1C /* Products */,
+				5C72261AD9E89E5C8FD9DC24 /* Pods */,
+				155DD07EA6A5AB5759BA02CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				8649601D20188AF40090AA1C /* Tools */,
+				86D77155245984B0007763BE /* Other */,
 				86496007201889B10090AA1C /* AppDelegate.h */,
 				86496008201889B10090AA1C /* AppDelegate.m */,
 				8649600A201889B10090AA1C /* ViewController.h */,
@@ -84,26 +151,18 @@
 		8649601D20188AF40090AA1C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				86B300F02439FA9700082E37 /* Utility */,
-				8649601E20188AF40090AA1C /* Category */,
+				86D7715B2459888A007763BE /* Utils */,
+				86D7712624598348007763BE /* Category */,
 				8649601F20188AF40090AA1C /* Macro */,
-				8649602020188AF40090AA1C /* View */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		8649601E20188AF40090AA1C /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		8649601F20188AF40090AA1C /* Macro */ = {
 			isa = PBXGroup;
 			children = (
 				86267028201B1D1400A5289F /* Macro.h */,
-				8626702D201B220D00A5289F /* ViewMacro.h */,
+				8626702D201B220D00A5289F /* LayoutMacro.h */,
 				8626702B201B1F1000A5289F /* PathMacro.h */,
 				86267029201B1D4500A5289F /* ColorMacro.h */,
 				8626702A201B1E3000A5289F /* CategoryMacro.h */,
@@ -112,20 +171,215 @@
 			path = Macro;
 			sourceTree = "<group>";
 		};
-		8649602020188AF40090AA1C /* View */ = {
+		86D7712624598348007763BE /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				86D7712724598348007763BE /* NSArray */,
+				86D7712B24598348007763BE /* NSObject */,
+				86D7712F24598348007763BE /* UIButton */,
+				86D7713624598348007763BE /* UIImage */,
+				86D7713A24598348007763BE /* UITextView */,
+				86D7713D24598348007763BE /* UIView */,
+				86D7714724598348007763BE /* UIViewController */,
 			);
-			path = View;
+			path = Category;
 			sourceTree = "<group>";
 		};
-		86B300F02439FA9700082E37 /* Utility */ = {
+		86D7712724598348007763BE /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
-				86B300F12439FAF300082E37 /* Utility.h */,
-				86B300F22439FAF300082E37 /* Utility.m */,
+				86D7712824598348007763BE /* NSArray+Enum */,
 			);
-			path = Utility;
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		86D7712824598348007763BE /* NSArray+Enum */ = {
+			isa = PBXGroup;
+			children = (
+				86D7712924598348007763BE /* NSArray+Enum.h */,
+				86D7712A24598348007763BE /* NSArray+Enum.m */,
+			);
+			path = "NSArray+Enum";
+			sourceTree = "<group>";
+		};
+		86D7712B24598348007763BE /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				86D7712C24598348007763BE /* NSObject+Toast */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		86D7712C24598348007763BE /* NSObject+Toast */ = {
+			isa = PBXGroup;
+			children = (
+				86D7712D24598348007763BE /* NSObject+Toast.h */,
+				86D7712E24598348007763BE /* NSObject+Toast.m */,
+			);
+			path = "NSObject+Toast";
+			sourceTree = "<group>";
+		};
+		86D7712F24598348007763BE /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				86D7713024598348007763BE /* UIButton+FixMultipleClick */,
+				86D7713324598348007763BE /* UIButton+ImageTitleSpacing */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		86D7713024598348007763BE /* UIButton+FixMultipleClick */ = {
+			isa = PBXGroup;
+			children = (
+				86D7713124598348007763BE /* UIButton+FixMultipleClick.h */,
+				86D7713224598348007763BE /* UIButton+FixMultipleClick.m */,
+			);
+			path = "UIButton+FixMultipleClick";
+			sourceTree = "<group>";
+		};
+		86D7713324598348007763BE /* UIButton+ImageTitleSpacing */ = {
+			isa = PBXGroup;
+			children = (
+				86D7713424598348007763BE /* UIButton+ImageTitleSpacing.h */,
+				86D7713524598348007763BE /* UIButton+ImageTitleSpacing.m */,
+			);
+			path = "UIButton+ImageTitleSpacing";
+			sourceTree = "<group>";
+		};
+		86D7713624598348007763BE /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				86D7713724598348007763BE /* UIImage+FlatUI */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		86D7713724598348007763BE /* UIImage+FlatUI */ = {
+			isa = PBXGroup;
+			children = (
+				86D7713824598348007763BE /* UIImage+FlatUI.h */,
+				86D7713924598348007763BE /* UIImage+FlatUI.m */,
+			);
+			path = "UIImage+FlatUI";
+			sourceTree = "<group>";
+		};
+		86D7713A24598348007763BE /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				86D7713B24598348007763BE /* UITextView+DisableCopy.h */,
+				86D7713C24598348007763BE /* UITextView+DisableCopy.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		86D7713D24598348007763BE /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				86D7713E24598348007763BE /* UIView+Extension */,
+				86D7714124598348007763BE /* UIView+Toast */,
+				86D7714424598348007763BE /* UIView+ToastView */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		86D7713E24598348007763BE /* UIView+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				86D7713F24598348007763BE /* UIView+Extension.h */,
+				86D7714024598348007763BE /* UIView+Extension.m */,
+			);
+			path = "UIView+Extension";
+			sourceTree = "<group>";
+		};
+		86D7714124598348007763BE /* UIView+Toast */ = {
+			isa = PBXGroup;
+			children = (
+				86D7714224598348007763BE /* UIView+Toast.h */,
+				86D7714324598348007763BE /* UIView+Toast.m */,
+			);
+			path = "UIView+Toast";
+			sourceTree = "<group>";
+		};
+		86D7714424598348007763BE /* UIView+ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				86D7714524598348007763BE /* UIView+ToastView.h */,
+				86D7714624598348007763BE /* UIView+ToastView.m */,
+			);
+			path = "UIView+ToastView";
+			sourceTree = "<group>";
+		};
+		86D7714724598348007763BE /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				86D7714824598348007763BE /* UIViewController+Alert */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		86D7714824598348007763BE /* UIViewController+Alert */ = {
+			isa = PBXGroup;
+			children = (
+				86D7714924598348007763BE /* UIViewController+Alert.h */,
+				86D7714A24598348007763BE /* UIViewController+Alert.m */,
+			);
+			path = "UIViewController+Alert";
+			sourceTree = "<group>";
+		};
+		86D77155245984B0007763BE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				86D771662459BA4B007763BE /* UIViewExt */,
+				86D771622459B954007763BE /* GSVoiceCenter */,
+				86D77156245984B0007763BE /* Controllers */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		86D77156245984B0007763BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				86D77157245984B0007763BE /* GSLandAlertController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		86D77157245984B0007763BE /* GSLandAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				86D77158245984B0007763BE /* GSLandAlertController.h */,
+				86D77159245984B0007763BE /* GSLandAlertController.m */,
+			);
+			path = GSLandAlertController;
+			sourceTree = "<group>";
+		};
+		86D7715B2459888A007763BE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				86D7715C2459888A007763BE /* Utility.h */,
+				86D7715D2459888A007763BE /* Utility.m */,
+				86D7715F245988C8007763BE /* UIUtils.h */,
+				86D77160245988C8007763BE /* UIUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		86D771622459B954007763BE /* GSVoiceCenter */ = {
+			isa = PBXGroup;
+			children = (
+				86D771632459B954007763BE /* GSVoiceCenter.h */,
+				86D771642459B954007763BE /* GSVoiceCenter.m */,
+			);
+			path = GSVoiceCenter;
+			sourceTree = "<group>";
+		};
+		86D771662459BA4B007763BE /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				86D771672459BA4B007763BE /* UIViewExt.h */,
+				86D771682459BA4B007763BE /* UIViewExt.m */,
+			);
+			path = UIViewExt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +389,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8649601A201889B10090AA1C /* Build configuration list for PBXNativeTarget "iOS_Tools" */;
 			buildPhases = (
+				9BA7B7CEEC55FED0E183CDFB /* [CP] Check Pods Manifest.lock */,
 				86496000201889B10090AA1C /* Sources */,
 				86496001201889B10090AA1C /* Frameworks */,
 				86496002201889B10090AA1C /* Resources */,
+				D3DD4307B6512385BB8C77CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,15 +450,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9BA7B7CEEC55FED0E183CDFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Tools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3DD4307B6512385BB8C77CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Tools/Pods-iOS_Tools-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Tools/Pods-iOS_Tools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86496000201889B10090AA1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86B300F32439FAF300082E37 /* Utility.m in Sources */,
+				86D7715224598348007763BE /* UIView+Toast.m in Sources */,
+				86D7714B24598348007763BE /* NSArray+Enum.m in Sources */,
+				86D771652459B954007763BE /* GSVoiceCenter.m in Sources */,
+				86D7715124598348007763BE /* UIView+Extension.m in Sources */,
+				86D771692459BA4B007763BE /* UIViewExt.m in Sources */,
+				86D77161245988C8007763BE /* UIUtils.m in Sources */,
 				8649600C201889B10090AA1C /* ViewController.m in Sources */,
+				86D7714F24598348007763BE /* UIImage+FlatUI.m in Sources */,
+				86D7714C24598348007763BE /* NSObject+Toast.m in Sources */,
+				86D7715324598348007763BE /* UIView+ToastView.m in Sources */,
+				86D7715E2459888A007763BE /* Utility.m in Sources */,
+				86D7715024598348007763BE /* UITextView+DisableCopy.m in Sources */,
 				86496017201889B10090AA1C /* main.m in Sources */,
+				86D7715A245984B0007763BE /* GSLandAlertController.m in Sources */,
+				86D7714D24598348007763BE /* UIButton+FixMultipleClick.m in Sources */,
+				86D7714E24598348007763BE /* UIButton+ImageTitleSpacing.m in Sources */,
 				86496009201889B10090AA1C /* AppDelegate.m in Sources */,
+				86D7715424598348007763BE /* UIViewController+Alert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +647,7 @@
 		};
 		8649601B201889B10090AA1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F80AB3D0DC2FF6AD730994 /* Pods-iOS_Tools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -348,6 +662,7 @@
 		};
 		8649601C201889B10090AA1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97639B7F511F19A0C1BE7A3 /* Pods-iOS_Tools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
