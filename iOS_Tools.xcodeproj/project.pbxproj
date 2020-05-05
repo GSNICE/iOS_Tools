@@ -25,6 +25,7 @@
 		864C83382461A4BE0004597A /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C832E2461A4BE0004597A /* UIViewController+Alert.m */; };
 		864C833B2461A4D60004597A /* NSTimer+GS.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C833A2461A4D60004597A /* NSTimer+GS.m */; };
 		864C833E2461A6430004597A /* NSString+GS.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C833D2461A6430004597A /* NSString+GS.m */; };
+		864C83412461AB270004597A /* NSDate+GS.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C83402461AB270004597A /* NSDate+GS.m */; };
 		86D7715A245984B0007763BE /* GSLandAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D77159245984B0007763BE /* GSLandAlertController.m */; };
 		86D7715E2459888A007763BE /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7715D2459888A007763BE /* Utility.m */; };
 		86D77161245988C8007763BE /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D77160245988C8007763BE /* UIUtils.m */; };
@@ -76,6 +77,8 @@
 		864C833A2461A4D60004597A /* NSTimer+GS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+GS.m"; sourceTree = "<group>"; };
 		864C833C2461A6430004597A /* NSString+GS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+GS.h"; sourceTree = "<group>"; };
 		864C833D2461A6430004597A /* NSString+GS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+GS.m"; sourceTree = "<group>"; };
+		864C833F2461AB270004597A /* NSDate+GS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+GS.h"; sourceTree = "<group>"; };
+		864C83402461AB270004597A /* NSDate+GS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+GS.m"; sourceTree = "<group>"; };
 		86D77158245984B0007763BE /* GSLandAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSLandAlertController.h; sourceTree = "<group>"; };
 		86D77159245984B0007763BE /* GSLandAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSLandAlertController.m; sourceTree = "<group>"; };
 		86D7715C2459888A007763BE /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
@@ -201,6 +204,8 @@
 		864C830A2461A4BE0004597A /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
+				864C833F2461AB270004597A /* NSDate+GS.h */,
+				864C83402461AB270004597A /* NSDate+GS.m */,
 			);
 			path = NSDate;
 			sourceTree = "<group>";
@@ -555,6 +560,7 @@
 				864C83382461A4BE0004597A /* UIViewController+Alert.m in Sources */,
 				864C833E2461A6430004597A /* NSString+GS.m in Sources */,
 				864C83322461A4BE0004597A /* UIButton+ImageTitleSpacing.m in Sources */,
+				864C83412461AB270004597A /* NSDate+GS.m in Sources */,
 				864C83342461A4BE0004597A /* UITextView+DisableCopy.m in Sources */,
 				86D77161245988C8007763BE /* UIUtils.m in Sources */,
 				864C832F2461A4BE0004597A /* NSArray+GS.m in Sources */,
