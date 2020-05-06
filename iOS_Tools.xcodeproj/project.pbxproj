@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8624E6BE2462BFD6009550A9 /* UIImage+GS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8624E6BD2462BFD6009550A9 /* UIImage+GS.m */; };
+		8624E6C12462C072009550A9 /* UIButton+GS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8624E6C02462C072009550A9 /* UIButton+GS.m */; };
+		8624E6C42462C1E0009550A9 /* UIViewController+GS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8624E6C32462C1E0009550A9 /* UIViewController+GS.m */; };
 		86496009201889B10090AA1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86496008201889B10090AA1C /* AppDelegate.m */; };
 		8649600C201889B10090AA1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8649600B201889B10090AA1C /* ViewController.m */; };
 		8649600F201889B10090AA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8649600D201889B10090AA1C /* Main.storyboard */; };
@@ -15,14 +18,10 @@
 		86496017201889B10090AA1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86496016201889B10090AA1C /* main.m */; };
 		864C832F2461A4BE0004597A /* NSArray+GS.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C83092461A4BE0004597A /* NSArray+GS.m */; };
 		864C83302461A4BE0004597A /* NSObject+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C830E2461A4BE0004597A /* NSObject+Toast.m */; };
-		864C83312461A4BE0004597A /* UIButton+FixMultipleClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C83152461A4BE0004597A /* UIButton+FixMultipleClick.m */; };
-		864C83322461A4BE0004597A /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C83182461A4BE0004597A /* UIButton+ImageTitleSpacing.m */; };
-		864C83332461A4BE0004597A /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C831C2461A4BE0004597A /* UIImage+FlatUI.m */; };
 		864C83342461A4BE0004597A /* UITextView+DisableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C83202461A4BE0004597A /* UITextView+DisableCopy.m */; };
 		864C83352461A4BE0004597A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C83242461A4BE0004597A /* UIView+Extension.m */; };
 		864C83362461A4BE0004597A /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C83272461A4BE0004597A /* UIView+Toast.m */; };
 		864C83372461A4BE0004597A /* UIView+ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C832A2461A4BE0004597A /* UIView+ToastView.m */; };
-		864C83382461A4BE0004597A /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C832E2461A4BE0004597A /* UIViewController+Alert.m */; };
 		864C833B2461A4D60004597A /* NSTimer+GS.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C833A2461A4D60004597A /* NSTimer+GS.m */; };
 		864C833E2461A6430004597A /* NSString+GS.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C833D2461A6430004597A /* NSString+GS.m */; };
 		864C83412461AB270004597A /* NSDate+GS.m in Sources */ = {isa = PBXBuildFile; fileRef = 864C83402461AB270004597A /* NSDate+GS.m */; };
@@ -37,6 +36,12 @@
 /* Begin PBXFileReference section */
 		15F80AB3D0DC2FF6AD730994 /* Pods-iOS_Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Tools.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Tools/Pods-iOS_Tools.debug.xcconfig"; sourceTree = "<group>"; };
 		816617CE1EC7A6D4B2E2723B /* Pods_iOS_Tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8624E6BC2462BFD6009550A9 /* UIImage+GS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+GS.h"; sourceTree = "<group>"; };
+		8624E6BD2462BFD6009550A9 /* UIImage+GS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GS.m"; sourceTree = "<group>"; };
+		8624E6BF2462C072009550A9 /* UIButton+GS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+GS.h"; sourceTree = "<group>"; };
+		8624E6C02462C072009550A9 /* UIButton+GS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GS.m"; sourceTree = "<group>"; };
+		8624E6C22462C1E0009550A9 /* UIViewController+GS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GS.h"; sourceTree = "<group>"; };
+		8624E6C32462C1E0009550A9 /* UIViewController+GS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GS.m"; sourceTree = "<group>"; };
 		86267028201B1D1400A5289F /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		86267029201B1D4500A5289F /* ColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
 		8626702A201B1E3000A5289F /* CategoryMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryMacro.h; sourceTree = "<group>"; };
@@ -57,12 +62,6 @@
 		864C83092461A4BE0004597A /* NSArray+GS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GS.m"; sourceTree = "<group>"; };
 		864C830D2461A4BE0004597A /* NSObject+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Toast.h"; sourceTree = "<group>"; };
 		864C830E2461A4BE0004597A /* NSObject+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Toast.m"; sourceTree = "<group>"; };
-		864C83142461A4BE0004597A /* UIButton+FixMultipleClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FixMultipleClick.h"; sourceTree = "<group>"; };
-		864C83152461A4BE0004597A /* UIButton+FixMultipleClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FixMultipleClick.m"; sourceTree = "<group>"; };
-		864C83172461A4BE0004597A /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
-		864C83182461A4BE0004597A /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
-		864C831B2461A4BE0004597A /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlatUI.h"; sourceTree = "<group>"; };
-		864C831C2461A4BE0004597A /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlatUI.m"; sourceTree = "<group>"; };
 		864C831F2461A4BE0004597A /* UITextView+DisableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+DisableCopy.h"; sourceTree = "<group>"; };
 		864C83202461A4BE0004597A /* UITextView+DisableCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+DisableCopy.m"; sourceTree = "<group>"; };
 		864C83232461A4BE0004597A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
@@ -71,8 +70,6 @@
 		864C83272461A4BE0004597A /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		864C83292461A4BE0004597A /* UIView+ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ToastView.h"; sourceTree = "<group>"; };
 		864C832A2461A4BE0004597A /* UIView+ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ToastView.m"; sourceTree = "<group>"; };
-		864C832D2461A4BE0004597A /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
-		864C832E2461A4BE0004597A /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
 		864C83392461A4D60004597A /* NSTimer+GS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+GS.h"; sourceTree = "<group>"; };
 		864C833A2461A4D60004597A /* NSTimer+GS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+GS.m"; sourceTree = "<group>"; };
 		864C833C2461A6430004597A /* NSString+GS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+GS.h"; sourceTree = "<group>"; };
@@ -261,45 +258,19 @@
 		864C83122461A4BE0004597A /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				864C83132461A4BE0004597A /* UIButton+FixMultipleClick */,
-				864C83162461A4BE0004597A /* UIButton+ImageTitleSpacing */,
+				8624E6BF2462C072009550A9 /* UIButton+GS.h */,
+				8624E6C02462C072009550A9 /* UIButton+GS.m */,
 			);
 			path = UIButton;
-			sourceTree = "<group>";
-		};
-		864C83132461A4BE0004597A /* UIButton+FixMultipleClick */ = {
-			isa = PBXGroup;
-			children = (
-				864C83142461A4BE0004597A /* UIButton+FixMultipleClick.h */,
-				864C83152461A4BE0004597A /* UIButton+FixMultipleClick.m */,
-			);
-			path = "UIButton+FixMultipleClick";
-			sourceTree = "<group>";
-		};
-		864C83162461A4BE0004597A /* UIButton+ImageTitleSpacing */ = {
-			isa = PBXGroup;
-			children = (
-				864C83172461A4BE0004597A /* UIButton+ImageTitleSpacing.h */,
-				864C83182461A4BE0004597A /* UIButton+ImageTitleSpacing.m */,
-			);
-			path = "UIButton+ImageTitleSpacing";
 			sourceTree = "<group>";
 		};
 		864C83192461A4BE0004597A /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				864C831A2461A4BE0004597A /* UIImage+FlatUI */,
+				8624E6BC2462BFD6009550A9 /* UIImage+GS.h */,
+				8624E6BD2462BFD6009550A9 /* UIImage+GS.m */,
 			);
 			path = UIImage;
-			sourceTree = "<group>";
-		};
-		864C831A2461A4BE0004597A /* UIImage+FlatUI */ = {
-			isa = PBXGroup;
-			children = (
-				864C831B2461A4BE0004597A /* UIImage+FlatUI.h */,
-				864C831C2461A4BE0004597A /* UIImage+FlatUI.m */,
-			);
-			path = "UIImage+FlatUI";
 			sourceTree = "<group>";
 		};
 		864C831D2461A4BE0004597A /* UILabel */ = {
@@ -358,18 +329,10 @@
 		864C832B2461A4BE0004597A /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				864C832C2461A4BE0004597A /* UIViewController+Alert */,
+				8624E6C22462C1E0009550A9 /* UIViewController+GS.h */,
+				8624E6C32462C1E0009550A9 /* UIViewController+GS.m */,
 			);
 			path = UIViewController;
-			sourceTree = "<group>";
-		};
-		864C832C2461A4BE0004597A /* UIViewController+Alert */ = {
-			isa = PBXGroup;
-			children = (
-				864C832D2461A4BE0004597A /* UIViewController+Alert.h */,
-				864C832E2461A4BE0004597A /* UIViewController+Alert.m */,
-			);
-			path = "UIViewController+Alert";
 			sourceTree = "<group>";
 		};
 		86D7712624598348007763BE /* Category */ = {
@@ -557,9 +520,9 @@
 				864C83352461A4BE0004597A /* UIView+Extension.m in Sources */,
 				86D771652459B954007763BE /* GSVoiceCenter.m in Sources */,
 				86D771692459BA4B007763BE /* UIViewExt.m in Sources */,
-				864C83382461A4BE0004597A /* UIViewController+Alert.m in Sources */,
+				8624E6C42462C1E0009550A9 /* UIViewController+GS.m in Sources */,
+				8624E6C12462C072009550A9 /* UIButton+GS.m in Sources */,
 				864C833E2461A6430004597A /* NSString+GS.m in Sources */,
-				864C83322461A4BE0004597A /* UIButton+ImageTitleSpacing.m in Sources */,
 				864C83412461AB270004597A /* NSDate+GS.m in Sources */,
 				864C83342461A4BE0004597A /* UITextView+DisableCopy.m in Sources */,
 				86D77161245988C8007763BE /* UIUtils.m in Sources */,
@@ -567,13 +530,12 @@
 				8649600C201889B10090AA1C /* ViewController.m in Sources */,
 				864C83362461A4BE0004597A /* UIView+Toast.m in Sources */,
 				864C83372461A4BE0004597A /* UIView+ToastView.m in Sources */,
-				864C83332461A4BE0004597A /* UIImage+FlatUI.m in Sources */,
 				86D7715E2459888A007763BE /* Utility.m in Sources */,
 				86496017201889B10090AA1C /* main.m in Sources */,
 				864C83302461A4BE0004597A /* NSObject+Toast.m in Sources */,
-				864C83312461A4BE0004597A /* UIButton+FixMultipleClick.m in Sources */,
 				86D7715A245984B0007763BE /* GSLandAlertController.m in Sources */,
 				86496009201889B10090AA1C /* AppDelegate.m in Sources */,
+				8624E6BE2462BFD6009550A9 /* UIImage+GS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

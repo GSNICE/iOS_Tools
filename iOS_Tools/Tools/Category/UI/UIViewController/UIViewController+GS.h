@@ -1,15 +1,17 @@
 //
-//  UIViewController+Alert.h
-//  GSNICE
+//  UIViewController+GS.h
+//  iOS_Tools
 //
-//  Created by Gavin on 2017/8/8.
-//  Copyright © 2017 GSNICE. All rights reserved.
+//  Created by Gavin on 2020/5/6.
+//  Copyright © 2020 GSNICE. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "GSLandAlertController.h"
 
-@interface UIViewController (Alert)
+NS_ASSUME_NONNULL_BEGIN
+
+@interface UIViewController (GS)
 
 /**
  快速创建 AlertController：包括 Alert 和 ActionSheet
@@ -21,7 +23,8 @@
  @param style       类型：Alert 或者 ActionSheet
  @param completion  完成点击按钮之后的回调（不包括取消）
  */
-
 - (GSLandAlertController *)showAlertWithTitle: (NSString *)title message: (NSString *)message actionTitles: (NSArray<NSString *> *)actions cancelTitle: (NSString *)cancelTitle style: (UIAlertControllerStyle)style completion: (void(^)(NSInteger index))completion;
 
 @end
+
+NS_ASSUME_NONNULL_END

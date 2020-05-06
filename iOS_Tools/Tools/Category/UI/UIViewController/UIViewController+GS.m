@@ -1,14 +1,14 @@
 //
-//  UIViewController+Alert.m
-//  GSNICE
+//  UIViewController+GS.m
+//  iOS_Tools
 //
-//  Created by Gavin on 2017/8/8.
-//  Copyright © 2017 GSNICE. All rights reserved.
+//  Created by Gavin on 2020/5/6.
+//  Copyright © 2020 GSNICE. All rights reserved.
 //
 
-#import "UIViewController+Alert.h"
+#import "UIViewController+GS.h"
 
-@implementation UIViewController (Alert)
+@implementation UIViewController (GS)
 
 - (GSLandAlertController *)showAlertWithTitle: (NSString *)title message: (NSString *)message actionTitles: (NSArray<NSString *> *)actions cancelTitle: (NSString *)cancelTitle style: (UIAlertControllerStyle)style completion: (void(^)(NSInteger index))completion {
     GSLandAlertController *alert = [GSLandAlertController alertControllerWithTitle:title message:message preferredStyle:style];
